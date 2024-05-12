@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Description
+This project features a visually engaging website that showcases a car with various animations and micro-interactions. Using advanced web technologies, the site is designed to highlight the aesthetics and dynamic capabilities of the car, providing an immersive user experience without functional complexity.
 
-## Getting Started
+## Structure
+The application is built using Next.js to take advantage of its efficient page rendering and routing capabilities. It is structured to leverage the power of React for building a responsive and interactive UI. The site includes sophisticated animations crafted with Framer Motion and smooth scrolling effects powered by Lenis, ensuring a fluid and engaging user experience.
 
-First, run the development server:
+## Outcome
+The main aim of this project is to provide a visual treat to car enthusiasts and potential customers by showcasing the car in a dynamic, interactive manner. It serves as an effective marketing tool to demonstrate the car’s appeal through high-quality animations and user interactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+## Tech Stack
+
+### Dependencies:
+  #### Framework and Libraries:
+   - `next: Provides the SSR and SSG capabilities.`
+   - `react, react-dom: Core libraries for building the UI.`
+  #### Animation and Interaction:
+   - `framer-motion: Enables intricate animations for components.`
+   - `lenis: Used for smooth scrolling effects.`
+  #### Styling:
+   - `tailwind-merge: Utility for merging Tailwind CSS classes to avoid duplicates.`
+   - `clsx: A tiny utility for constructing className strings conditionally.`
+  #### Code Formatting:
+   - `prettier: Ensures consistent code formatting.`
+   - `prettier-plugin-tailwindcss: Integrates Tailwind CSS sorting with Prettier.`
+  #### Performance Optimization:
+   - `@next/bundle-analyzer: Analyzes the size of Webpack output files.`
+  #### Utilities:
+   - `sharp: Used for image optimizations.`
+   - `usehooks-ts: Provides custom React hooks for enhanced functionality.`
+
+Running the App
+To start the car animation website, navigate to the project directory and execute the following commands in your terminal:
+
+``` bash
+pnpm i
+# then
 pnpm dev
-# or
-bun dev
 ```
+This will install the dependencies and launch the application in development mode.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Best Practices
+- Optimized Performance: Utilizes Next.js features like SSR and SSG for fast loading and rendering.
+- Modular Code: The application is well-structured into reusable React components.
+- Advanced Animation Handling: Framer Motion and Lenis are used effectively to create fluid, eye-catching animations.
+- Accessibility and Responsiveness: Ensures the website is accessible and performs well across all devices.
+- Code Quality and Maintenance: Extensive use of code formatting tools and custom hooks to maintain code quality and simplify state management.
